@@ -172,4 +172,3 @@ function mostrarError(){
         parrafoError.remove();
       }, 3000);
 }
-
