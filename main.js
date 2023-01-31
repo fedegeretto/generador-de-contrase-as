@@ -166,6 +166,7 @@ function mostrarError(){
     const parrafoError = document.createElement('p');
     parrafoError.innerText = "Por favor selecciona alguna de las opciones de caracteres para crear tu contraseña";
     divError.appendChild(parrafoError);
+    parrafoError.classList.add("error")
 
     setTimeout(() => {
         parrafoError.remove();
